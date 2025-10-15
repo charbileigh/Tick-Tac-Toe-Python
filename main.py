@@ -67,7 +67,7 @@ while True:
         winner = check_winner()
         if winner:
             display_board()
-            print(f"🎉 {names[winner]} ({winner}) wins! GG!")
+            print(f"🎉 {names[winner]} ({winner}) wins! Congratulations!")
             break
         if board_full():
             display_board()
